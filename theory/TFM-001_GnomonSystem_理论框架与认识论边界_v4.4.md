@@ -388,4 +388,4 @@ Gnomon System的多节点涌现机制和信任的涌现机制同构：多个独�
 
 *GnomonSystem · 日晷系统*
 *TFM-001 · 理论框架与认识论边界 · GnomonSystem协议基线 V4.4*
-天枢时源科技有限公司 ·  2026-09-05 · *GnomonSystem协议基线* V4.4
+天枢时源（杭州）科技有限公司 ·  2026-09-05 · *GnomonSystem协议基线* V4.4

@@ -914,9 +914,9 @@ Empirical testing may include quantitative measurement of cooperation entropy ac
 11. Lamport, L., Shostak, R., & Pease, M. (1982). “The Byzantine Generals Problem.” *ACM Transactions on Programming Languages and Systems*, 4(3), 382–401.
 12. Szabo, N. (1997). “Formalizing and Securing Relationships on Public Networks.” *First Monday*, 2(9).
 13. Harari, Y. N. (2011). *Sapiens: A Brief History of Humankind*. Harper.
-14. RFC-SYS-001 (2026). *GnomonSystem Operating-System Design Outline*. Hangzhou Tianshu Temporal Technology Co., Ltd.
-15. Tianshu Protocol (RFC-P1-001) (2026). *Tianshu Protocol Time-Source Specification*. Hangzhou Tianshu Temporal Technology Co., Ltd.
-16. Tianxuan Protocol (RFC-P2-001) (2026). *Tianxuan Protocol Event-Existence Proof and Causal-Tree Specification*. Hangzhou Tianshu Temporal Technology Co., Ltd.
+14. RFC-SYS-001 (2026). *GnomonSystem Operating-System Design Outline*. Tianshu Time Source (Hangzhou) Technology Co., Ltd.
+15. Tianshu Protocol (RFC-P1-001) (2026). *Tianshu Protocol Time-Source Specification*. Tianshu Time Source (Hangzhou) Technology Co., Ltd.
+16. Tianxuan Protocol (RFC-P2-001) (2026). *Tianxuan Protocol Event-Existence Proof and Causal-Tree Specification*. Tianshu Time Source (Hangzhou) Technology Co., Ltd.
 
 
 *GnomonSystem*
