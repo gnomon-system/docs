@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">GnomonSystem — Verifiable Temporal Infrastructure</title>
+  <desc id="desc">A dark violet time-orbit graphic for GnomonSystem, showing the operating system for digital facts: trusted time, event anchors, subject proofs, verification, and tracing.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06040b"/>
+      <stop offset="0.56" stop-color="#0c0715"/>
+      <stop offset="1" stop-color="#160c25"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ad7aff"/>
+      <stop offset="0.54" stop-color="#7d5cff"/>
+      <stop offset="1" stop-color="#ff8ed8"/>
+    </linearGradient>
+    <radialGradient id="bloom">
+      <stop offset="0" stop-color="#8d55ff" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#8d55ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#d7c5ff" stroke-opacity=".035" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1280" height="640" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="640" rx="28" fill="url(#grid)"/>
+  <circle cx="925" cy="320" r="340" fill="url(#bloom)"/>
+  <path d="M0 520C255 442 375 454 600 520s430 70 680-22" fill="none" stroke="url(#accent)" stroke-opacity=".12" stroke-width="1.5"/>
+  <path d="M0 548C270 485 400 490 630 548s425 64 650-4" fill="none" stroke="#d5c1ff" stroke-opacity=".07" stroke-width="1"/>
+
+  <g font-family="Inter, Space Grotesk, Arial, sans-serif">
+    <text x="84" y="118" fill="#cdb2ff" font-size="17" font-weight="700" letter-spacing="5">GNOMONSYSTEM</text>
+    <rect x="84" y="143" width="64" height="3" rx="2" fill="url(#accent)"/>
+    <text x="80" y="232" fill="#f5f1ff" font-size="55" font-weight="650" letter-spacing="-2">The operating system</text>
+    <text x="80" y="299" fill="url(#accent)" font-size="58" font-weight="700" letter-spacing="-2.4">for digital facts</text>
+    <text x="84" y="356" fill="#c4b8d7" font-size="20" font-weight="400">Verifiable temporal infrastructure for critical events.</text>
+    <text x="84" y="407" fill="#87789f" font-size="13" font-weight="700" letter-spacing="2.4">TRUSTED TIME  ·  EVENT ANCHORS  ·  VERIFY &amp; TRACE</text>
+  </g>
+
+  <g transform="translate(938 320)">
+    <circle r="202" fill="none" stroke="#ad7aff" stroke-opacity=".14" stroke-width="1"/>
+    <circle r="166" fill="none" stroke="#ad7aff" stroke-opacity=".25" stroke-width="1.5"/>
+    <circle r="126" fill="none" stroke="#d6bdff" stroke-opacity=".15" stroke-width="1" stroke-dasharray="3 10"/>
+    <circle r="81" fill="#0a0712" fill-opacity=".86" stroke="url(#accent)" stroke-opacity=".8" stroke-width="2"/>
+    <circle r="57" fill="none" stroke="#ad7aff" stroke-opacity=".36" stroke-width="1"/>
+    <path d="M0-81V-57M0 57V81M-81 0h24M57 0h24" stroke="#d6bdff" stroke-opacity=".75" stroke-width="2" stroke-linecap="round"/>
+    <circle r="8" fill="#f5f1ff" filter="url(#glow)"/>
+    <circle cx="0" cy="-166" r="7" fill="#ad7aff" filter="url(#glow)"/>
+    <circle cx="166" cy="0" r="7" fill="#ff8ed8" filter="url(#glow)"/>
+    <circle cx="0" cy="166" r="7" fill="#ad7aff" filter="url(#glow)"/>
+    <circle cx="-166" cy="0" r="7" fill="#d8bbff" filter="url(#glow)"/>
+    <path d="M0-166A166 166 0 0 1 166 0" fill="none" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" opacity=".82"/>
+    <path d="M166 0A166 166 0 0 1 0 166" fill="none" stroke="#d8bbff" stroke-width="1.5" stroke-linecap="round" opacity=".45"/>
+  </g>
+
+  <g font-family="Inter, Space Grotesk, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">
+    <text x="938" y="88" text-anchor="middle" fill="#d8bbff">TIME ROOT</text>
+    <text x="1154" y="324" text-anchor="middle" fill="#ffb5e4">EVENT ANCHOR</text>
+    <text x="938" y="560" text-anchor="middle" fill="#d8bbff">SUBJECT PROOF</text>
+    <text x="722" y="324" text-anchor="middle" fill="#d8bbff">VERIFY · TRACE</text>
+  </g>
+  <text x="84" y="584" fill="#6e617e" font-family="Inter, Arial, sans-serif" font-size="12" letter-spacing="1.3">INDEPENDENTLY VERIFIABLE · CRYPTOGRAPHICALLY ANCHORED · AUDIT-READY</text>
+</svg>
